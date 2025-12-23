@@ -7,6 +7,11 @@ Pytorch implementation of the paper "Uncertainty-aware RGBT Tracking".
 - UATrack leverages uncertainty to enhance robust representation learning and reliable multimodal fusion for RGBT tracking, effectively addressing the challenges arising from dynamically varying modality quality in complex scenarios.
 - UATrack achieves SOTA result on GTOT, RGBT210, RGBT234 and LasHeR datasets.
 
+
+## Uncertainty Scores
+![image](https://github.com/dongdong2061/UATrack/blob/main/img/Uncertainty_scores.png)
+
+
 Note: This is an extended version of our conference paper [TUMFNet](https://github.com/dongdong2061/IJCAI25-TUMFNet) published at IJCAI 2025.
 
 ### Models and Results
@@ -45,6 +50,10 @@ python eval_rgbt234.py
 python eval_rgbt210.py
 python eval_gtot.py
 ```
+
+
+## Results
+![image](https://github.com/dongdong2061/UATrack/blob/main/img/results.png)
 
 ## Acknowledgment
 - This repo is based on [BAT](https://github.com/SparkTempest/BAT) which is an exellent work, helps us to quickly implement our ideas.
