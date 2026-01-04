@@ -35,7 +35,7 @@ You can also modify paths by these two files:
 Dowmload the pretrained [foundation model](https://www.kaggle.com/datasets/zhaodongding/drgbt603-results/data) (OSTrack and DropMae)
 and put it under ./pretrained/.
 ```
-CUDA_VISIBLE_DEVICES=0,1  NCCL_P2P_LEVEL=NVL nohup  python tracking/train.py --script drgbt --config DRGBT603 --save_dir ./output --mode multiple --nproc_per_node 1 >  train_track.log &
+CUDA_VISIBLE_DEVICES=0,1  NCCL_P2P_LEVEL=NVL nohup  python tracking/train.py --script drgbt --config DRGBT603 --save_dir ./output --mode multiple --nproc_per_node 2 >  train_track.log &
 ```
 
 ### Test
